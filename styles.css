@@ -660,3 +660,41 @@ footer p {
         grid-template-columns: 1fr;
     }
 }
+/* RONNELTECH HEADER LOGO */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+}
+
+.logo-image {
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-main {
+    line-height: 1;
+}
+
+.logo-text small {
+    margin-top: 5px;
+}
+
+@media (max-width: 750px) {
+    .logo-image {
+        width: 44px;
+        height: 44px;
+    }
+
+    .logo-text small {
+        display: none;
+    }
+}
