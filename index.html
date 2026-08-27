@@ -357,6 +357,77 @@
                 </div>
 
 
+
+                <div class="consultation-form-wrap">
+
+                    <div class="form-heading">
+                        <p class="section-label">REQUEST A CONSULTATION</p>
+                        <h3>Tell Us What You Need</h3>
+                        <p>
+                            Share a few details about your project or security needs
+                            and the Ronneltech team will get back to you.
+                        </p>
+                    </div>
+
+                    <form
+    class="consultation-form"
+    id="consultation-form"
+    action="https://formspree.io/f/xgaewppk"
+    method="POST"
+>
+
+    <input type="text" name="_gotcha" style="display:none">                    <div class="form-grid">
+
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="company">Company / Business</label>
+                                <input type="text" id="company" name="company">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+
+                            <div class="form-group form-group-full">
+                                <label for="service">Service Needed *</label>
+                                <select id="service" name="service" required>
+                                    <option value="">Select a service</option>
+                                    <option>Cybersecurity Services</option>
+                                    <option>Cloud & Infrastructure</option>
+                                    <option>Network & System Integration</option>
+                                    <option>Application Development</option>
+                                    <option>IT Support & Consulting</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group form-group-full">
+                                <label for="message">Tell Us About Your Needs *</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                            </div>
+
+                        </div>
+
+                        <button type="submit" class="primary-btn form-submit">
+                            Send Request
+                        </button>
+
+                        <p class="form-status" id="form-status"></p>
+
+                    </form>
+
+                </div>
+
                 <a href="#home" class="primary-btn contact-action">
                     Back to Top
                 </a>

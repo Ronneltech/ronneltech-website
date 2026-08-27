@@ -714,3 +714,109 @@ footer p {
         width: min(300px, 82%);
     }
 }
+/* CONSULTATION FORM */
+
+.consultation-form-wrap {
+    margin-top: 55px;
+    padding: 40px;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: linear-gradient(
+        145deg,
+        rgba(14, 31, 53, 0.88),
+        rgba(4, 17, 32, 0.95)
+    );
+    text-align: left;
+}
+
+.form-heading {
+    margin-bottom: 30px;
+}
+
+.form-heading h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.form-heading p:not(.section-label) {
+    color: #aab7c8;
+    max-width: 700px;
+}
+
+.consultation-form {
+    width: 100%;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group-full {
+    grid-column: 1 / -1;
+}
+
+.form-group label {
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #d9e3ef;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 14px 15px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: #071321;
+    color: #ffffff;
+    font: inherit;
+    outline: none;
+    transition: 0.25s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #0785ff;
+    box-shadow: 0 0 0 3px rgba(7, 133, 255, 0.12);
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-submit {
+    border: none;
+    cursor: pointer;
+    margin-top: 24px;
+    font-size: 15px;
+}
+
+.form-status {
+    margin-top: 15px;
+    color: #8fc7ff;
+    font-size: 14px;
+}
+
+@media (max-width: 700px) {
+    .consultation-form-wrap {
+        padding: 28px 20px;
+    }
+
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .form-group-full {
+        grid-column: auto;
+    }
+}
