@@ -1,2 +1,11 @@
+.DS_Store
+
 index-backup.html
 index-before-cleanup.html
+index-before-*.html
+
+*-before-footer.html
+
+styles-broken-backup.css
+styles-live.css
+old-css-backup.txt
