@@ -1071,3 +1071,20 @@ footer p {
     transform: translateX(5px);
     color: #8fc7ff;
 }
+/* BACK TO HOME LINK */
+
+.back-home {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 24px;
+    color: #8fc7ff;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.25s ease;
+}
+
+.back-home:hover {
+    color: #ffffff;
+    transform: translateX(-4px);
+}
