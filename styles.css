@@ -820,3 +820,77 @@ footer p {
         grid-column: auto;
     }
 }
+/* WHY RONNELTECH */
+
+.why-ronneltech {
+    padding: 90px 8%;
+}
+
+.why-header {
+    max-width: 760px;
+    margin-bottom: 40px;
+}
+
+.why-header h2 {
+    font-size: 38px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+.why-header p:not(.section-label) {
+    color: #aab7c8;
+    line-height: 1.7;
+}
+
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.why-card {
+    padding: 28px;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: linear-gradient(
+        145deg,
+        rgba(14, 31, 53, 0.88),
+        rgba(4, 17, 32, 0.95)
+    );
+}
+
+.why-icon {
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+.why-card h3 {
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+.why-card p {
+    color: #aab7c8;
+    line-height: 1.65;
+    font-size: 15px;
+}
+
+@media (max-width: 950px) {
+    .why-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .why-ronneltech {
+        padding: 70px 6%;
+    }
+
+    .why-header h2 {
+        font-size: 31px;
+    }
+
+    .why-grid {
+        grid-template-columns: 1fr;
+    }
+}
