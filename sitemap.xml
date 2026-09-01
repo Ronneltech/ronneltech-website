@@ -1,33 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
     <url>
         <loc>https://ronneltech.com/</loc>
     </url>
-
     <url>
         <loc>https://ronneltech.com/cybersecurity-services.html</loc>
     </url>
-
     <url>
         <loc>https://ronneltech.com/cloud-infrastructure.html</loc>
     </url>
-
     <url>
         <loc>https://ronneltech.com/network-system-integration.html</loc>
     </url>
-
     <url>
         <loc>https://ronneltech.com/application-development.html</loc>
     </url>
-
     <url>
         <loc>https://ronneltech.com/it-support-consulting.html</loc>
     </url>
-<url>
-    <loc>https://ronneltech.com/privacy-policy.html</loc>
-</url>
-<url>
-    <loc>https://ronneltech.com/terms-of-use.html</loc>
-</url>
+    <url>
+        <loc>https://ronneltech.com/privacy-policy.html</loc>
+    </url>
+    <url>
+        <loc>https://ronneltech.com/terms-of-use.html</loc>
+    </url>
+    <url>
+        <loc>https://ronneltech.com/fr/</loc>
+    </url>
+    <url>
+        <loc>https://ronneltech.com/fr/cybersecurity-services.html</loc>
+    </url>
+    <url>
+        <loc>https://ronneltech.com/fr/cloud-infrastructure.html</loc>
+    </url>
+    <url>
+        <loc>https://ronneltech.com/fr/network-system-integration.html</loc>
+    </url>
+    <url>
+        <loc>https://ronneltech.com/fr/application-development.html</loc>
+    </url>
+    <url>
+        <loc>https://ronneltech.com/fr/it-support-consulting.html</loc>
+    </url>
+    <url>
+        <loc>https://ronneltech.com/fr/privacy-policy.html</loc>
+    </url>
+    <url>
+        <loc>https://ronneltech.com/fr/terms-of-use.html</loc>
+    </url>
 </urlset>

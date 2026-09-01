@@ -9,3 +9,10 @@ index-before-*.html
 styles-broken-backup.css
 styles-live.css
 old-css-backup.txt
+
+fr/backups/
+
+# French translation development files
+prepare-fr-*.py
+translate-fr-*.py
+script-before-french.js
