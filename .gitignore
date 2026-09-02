@@ -16,3 +16,5 @@ fr/backups/
 prepare-fr-*.py
 translate-fr-*.py
 script-before-french.js
+
+.wrangler/
